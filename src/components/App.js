@@ -1,9 +1,11 @@
-import React, { useState } from 'react'
+import React, { Component } from 'react'
 
-const App = () => {
-  return (
+class App extends Component {
+  render() {
+    return (
     <h1>React Boiler</h1>
-  )
+    )
+  }
 }
 
 export default App
